@@ -1,4 +1,3 @@
-// main.cpp
 #include "BrazoRobotico.h"
 #include <iostream>
 

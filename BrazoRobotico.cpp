@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 BrazoRobotico::BrazoRobotico() : x(0), y(0), z(0), sujetandoObjeto(false) {}
-//formas para obtener coordenas:
+//formas para obtener coordenas :
 double BrazoRobotico::getX() const{
        	return x;
 }

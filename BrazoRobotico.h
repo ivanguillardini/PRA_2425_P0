@@ -16,7 +16,7 @@ public:
     double getZ() const;
     bool estaSujetando() const;
 
-    //metodos de acción
+    //metodos de  acción
     void coger();
     void soltar();
     void mover(double nuevoX, double nuevoY, double nuevoZ);
