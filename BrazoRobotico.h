@@ -1,23 +1,22 @@
-// BrazoRobotico.h
 #ifndef BRAZOROBOTICO_H
 #define BRAZOROBOTICO_H
 
 class BrazoRobotico {
-private:
-    double x, y, z;        // Coordenadas de la extremidad del robot en el espacio 3D
-    bool sujetandoObjeto;  // Indica si está sujetando un objeto
+	private:
+    		double x, y, z; //coordenadas
+		bool sujetandoObjeto; //saber si esta sujetando o no
 
 public:
-    // Constructor
+    //constructor
     BrazoRobotico();
 
-    // Métodos consultores
+    //metodos consultores
     double getX() const;
     double getY() const;
     double getZ() const;
     bool estaSujetando() const;
 
-    // Métodos de acción
+    //metodos de acción
     void coger();
     void soltar();
     void mover(double nuevoX, double nuevoY, double nuevoZ);
